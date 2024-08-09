@@ -1,0 +1,68 @@
+@use '../variables'
+@use '../mixins'
+
+.imagem
+    height: 10rem
+    margin-bottom: 1rem
+
+.swiper-button-next:after 
+    margin-left: 1rem
+
+.swiper-button-prev:after
+    margin-right: 1rem
+
+.card-project
+    padding: 1.2rem
+    text-align: center
+
+    .projetos
+        width: 100%
+        font-size: 3rem
+        margin-bottom: 1rem
+        background: variables.$gradient
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        flex-direction: column
+
+    .container
+        background-color: #111
+        border-radius: 10px
+        padding: 3rem 0
+        display: flex
+
+        .card
+            margin: 0 2rem
+            @include mixins.center
+            flex-direction: column
+            background-color: #2c2c2c
+            border-radius: 5px
+            padding: 1rem
+            height: 25rem
+
+            .name-item
+                color: variables.$text-color
+                margin-bottom: 2rem
+
+            p
+                color: variables.$text-color
+                margin-bottom: 1rem
+                padding: 0 2.5rem
+
+            .btn
+                @include mixins.bnt
+                padding: .5rem
+                align-self: start
+                margin: 0 auto
+                border: none
+                font-size: 18px
+                width: 10rem
+    .back
+        @include mixins.bnt
+        padding: 5px 50px
+        background: linear-gradient(to right, #727272, #333333 )
+        transition: .5
+    
+    .back:hover
+        padding: 8px 55px
+        font-weight: bold
+        background: linear-gradient(to left, #727272, #333333)
