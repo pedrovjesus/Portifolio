@@ -108,7 +108,7 @@ function App() {
           ))}
         </Swiper>
       </div>
-      <Link to="/" className="back">
+      <Link to="/portifolio" className="back">
         Voltar
       </Link>
     </div>

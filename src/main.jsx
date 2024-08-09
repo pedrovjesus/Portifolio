@@ -8,11 +8,11 @@ import Project from "./routes/Project.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/portifolio/",
     element: <App />,
   },
   {
-    path: "/projects",
+    path: "/portifolio/projects",
     element: <Project />,
   },
 ]);

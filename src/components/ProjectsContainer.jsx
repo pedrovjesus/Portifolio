@@ -7,7 +7,7 @@ const ProjectsContainer = () => {
       <h2>Projetos</h2>
       <p>Clique no botão para ver meus projetos recentes</p>
 
-      <Link to="/projects" className="btn">
+      <Link to="/portifolio/projects" className="btn">
         Ver projetos
       </Link>
     </section>
