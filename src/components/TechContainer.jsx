@@ -34,13 +34,13 @@ const technologies = [
     id: "node",
     name: "Node.js",
     icon: <DiNodejsSmall />,
-    desc: "Criar sistemas funcionais e API, e usar frameworks como express",
+    desc: "Habilidade em criar sistemas funcionais utilizando frameworks como express junto ao typescript",
   },
   {
     id: "mysql",
     name: "MYSQL",
     icon: <DiMysql />,
-    desc: "Atualmente estou estudando banco relacional e já tenho conhecimento em estrutura MVC",
+    desc: "Atualmente estou estudando banco relacional e já tenho conhecimento em modelagem de banco de dados e relacionamentos",
   },
   {
     id: "react",
